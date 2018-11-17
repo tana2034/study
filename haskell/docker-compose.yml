@@ -1,0 +1,8 @@
+version: '3'
+services:
+  haskell:
+    build: .
+    volumes: 
+      - ./:/usr/local/src/app
+    working_dir: /usr/local/src/app
+    command: tail -f /dev/null
