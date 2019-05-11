@@ -8,5 +8,9 @@ services:
       - "50000:50000"
     volumes:
       - jenkins_home:/var/jenkins_home
+      - jenkins_war:/var/cache/jenkins/war
+      - jenkins_share:/usr/share/jenkins
 volumes:
   jenkins_home: 
+  jenkins_war: 
+  jenkins_share: 
