@@ -1,1 +1,3 @@
 .DS_Store
+/jest/node_modules/
+/express_js/node_modules/
