@@ -1,0 +1,5 @@
+#!/bin/sh
+
+. strCmp.sh
+
+strCmp $1 $2

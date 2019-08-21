@@ -1,0 +1,5 @@
+#!/bin/sh
+
+. GetYesNo.sh
+
+GetYesNo "Would you like to continue Test?"

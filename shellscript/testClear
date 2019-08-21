@@ -1,0 +1,5 @@
+#!/bin/sh
+
+. Clear.sh
+
+Clear

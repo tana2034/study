@@ -1,0 +1,7 @@
+#!/bin/sh
+Cleanup() {
+    rm /temp/*.$$
+    exit $1
+}
+trap 'Cleanup 1' 1 2 3 15
+Cleanup 0
