@@ -1,0 +1,10 @@
+#!/bin/sh
+
+. IsSystemType.sh
+
+IsSystemType aaaa
+echo $?
+
+IsSystemType Darwin
+echo $?
+

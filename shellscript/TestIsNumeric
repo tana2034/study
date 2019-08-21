@@ -1,0 +1,9 @@
+#!/bin/sh
+
+. IsNumeric.sh
+
+IsNumeric 1
+echo $?
+
+IsNumeric a
+echo $?

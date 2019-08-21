@@ -1,0 +1,12 @@
+#!/bin/sh
+
+. IsNewer.sh
+
+IsNewer $@
+STATUS=$?
+
+if [ $STATUS -eq 0 ]; then
+    echo "$1 is newer."
+else 
+    echo "$2 is newer."
+fi
